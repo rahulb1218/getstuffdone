@@ -16,7 +16,7 @@ struct toDoApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView{
-                SignUpView()
+                ListView()
             }
             .navigationViewStyle(StackNavigationViewStyle())
             .environmentObject(listViewModel)
