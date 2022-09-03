@@ -46,7 +46,7 @@ struct ListView: View {
             }
         }
         .listStyle(PlainListStyle())
-        .navigationTitle("get shit done.")
+        .navigationTitle("get stuff done.")
         .navigationBarItems(
             leading: EditButton()
         .navigationBarBackButtonHidden(true)

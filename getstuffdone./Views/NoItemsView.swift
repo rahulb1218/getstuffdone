@@ -15,7 +15,7 @@ struct NoItemsView: View {
     var body: some View {
         ScrollView{
             VStack(spacing: 20){
-            Text("you finished eveything. good shit. sit back and relax for now 🥱")
+            Text("you finished eveything. good stuff. sit back and relax for now 🥱")
                     //.font(.title)
                     .fontWeight(.semibold)
                     .foregroundColor(.gray)
